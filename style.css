@@ -42,6 +42,7 @@ p {
 	text-align: center;
 }
 .section-title span {
+	font-size: 2rem;
 	color: crimson;
 }
 
@@ -213,7 +214,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgb(131, 125, 182);
+	background-color: rgb(0, 0, 0);
 	opacity: 0.7;
 	z-index: -1;
 }
@@ -248,7 +249,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: crimson;
+	background-color: rgb(220, 207, 20);
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -316,12 +317,12 @@ p {
 }
 #services .service-item h2 {
 	font-size: 2rem;
-	color: white;
+	color: crimson;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
 #services .service-item p {
-	color: white;
+	color: rgb(223, 192, 21);
 	text-align: left;
 }
 /* End Services Section */
@@ -377,7 +378,7 @@ p {
 	margin-top: 10px;
 }
 #projects .project-info p {
-	color: white;
+	color: rgb(223, 192, 21);
 }
 #projects .project-img {
 	flex-basis: 50%;
